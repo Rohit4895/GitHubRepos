@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/collectionText"
+        android:layout_width="@dimen/collectionWidth"
+        android:layout_height="@dimen/collectionHeight"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/leftMargin"
+        android:layout_marginTop="@dimen/collectionMTp"
+        android:text="Collections"
+        android:textSize="@dimen/collectionTextSize"
+        style="?attr/collectionColor"/>
+
+    <ImageView
+        android:id="@+id/cartIcon"
+        android:layout_width="@dimen/cartIconWidth"
+        android:layout_height="@dimen/cartIconHeight"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/cartIconMTp"
+        android:layout_marginRight="@dimen/cartIconMRt"
+        style="?attr/cartIconChange" />
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="@dimen/notificationWidth"
+        android:layout_height="@dimen/notificationHeight"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/notificationMLt"
+        android:layout_marginTop="@dimen/notificationMTp"
+        android:layout_marginRight="@dimen/notificationMRt"
+        android:background="@drawable/textview_counter"
+        android:gravity="top|right|end"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/cardView" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/horiRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collectionText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/verRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horiRecyclerView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

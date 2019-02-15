@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main Layout Dimens-->
+    <!--Common Left Margin-->
+    <dimen name="leftMargin">20dp</dimen>
+
+    <!--Collection TextView-->
+    <dimen name="collectionHeight">50dp</dimen>
+    <dimen name="collectionWidth">200dp</dimen>
+    <dimen name="collectionTextSize">30dp</dimen>
+    <dimen name="collectionMTp">10dp</dimen>
+
+    <!--Cart Icon-->
+    <dimen name="cartIconMTp">10dp</dimen>
+    <dimen name="cartIconMRt">25dp</dimen>
+    <dimen name="cartIconHeight">30dp</dimen>
+    <dimen name="cartIconWidth">40dp</dimen>
+
+    <!--Notification-->
+    <dimen name="notificationMTp">7dp</dimen>
+    <dimen name="notificationMLt">-10dp</dimen>
+    <dimen name="notificationMRt">20dp</dimen>
+    <dimen name="notificationWidth">20dp</dimen>
+    <dimen name="notificationHeight">20dp</dimen>
+    <dimen name="notificationPadding">5dp</dimen>
+
+    <!--Vertical RecyclerView Dimens-->
+    <!--Card View-->
+    <dimen name="cardViewCornerRadius">15dp</dimen>
+    <dimen name="cardViewMTp">10dp</dimen>
+    <dimen name="cardViewMBtm">10dp</dimen>
+    <dimen name="cardViewMLt">20dp</dimen>
+    <dimen name="cardViewMRt">20dp</dimen>
+
+    <!--ImageView-->
+    <dimen name="imageViewWidth">100dp</dimen>
+    <dimen name="imageViewHeight">130dp</dimen>
+
+    <!--TextView mainText-->
+    <dimen name="mainTextWidth">120dp</dimen>
+    <dimen name="mainTextMLt">20dp</dimen>
+    <dimen name="mainTextMTp">12dp</dimen>
+    <dimen name="mainTextTSize">18dp</dimen>
+
+    <!--Toggle Button favourite-->
+    <dimen name="favouriteWidth">35dp</dimen>
+    <dimen name="favouriteHeight">35dp</dimen>
+    <dimen name="favouriteMLt">10dp</dimen>
+    <dimen name="favouriteMRt">10dp</dimen>
+    <dimen name="favouriteMTp">10dp</dimen>
+
+    <!--TextView subText-->
+    <dimen name="subTextWidth">180dp</dimen>
+    <dimen name="subTextMLt">20dp</dimen>
+    <dimen name="subTextMTp">8dp</dimen>
+    <dimen name="subTextTSize">12dp</dimen>
+
+    <!--RatingBar ratingBar-->
+    <dimen name="ratingBarMLt">20dp</dimen>
+    <dimen name="ratingBarMTp">8dp</dimen>
+
+    <!--TextView price-->
+    <dimen name="priceMLt">20dp</dimen>
+    <dimen name="priceMRt">10dp</dimen>
+    <dimen name="priceMTp">10dp</dimen>
+    <dimen name="priceTSize">20dp</dimen>
+
+    <!--Button addToCart-->
+    <dimen name="addToCartHeight">30dp</dimen>
+    <dimen name="addToCartMLt">10dp</dimen>
+    <dimen name="addToCartMTp">10dp</dimen>
+    <dimen name="addToCartTSize">10dp</dimen>
+    <dimen name="addToCartMRt">10dp</dimen>
+    <dimen name="addToCartMBtm">10dp</dimen>
+    <dimen name="addToCartPadding">5dp</dimen>
+
+    <!--Horizontal RecyclerView Dimens-->
+    <!--Button horiButton-->
+    <dimen name="horiButtonHeight">40dp</dimen>
+    <dimen name="horiButtonMTp">10dp</dimen>
+    <dimen name="horiButtonTSize">10dp</dimen>
+    <dimen name="horiButtonMRt">0.5dp</dimen>
+    <dimen name="horiButtonMBtm">10dp</dimen>
+    <dimen name="horiButtonPadding">5dp</dimen>
+</resources>

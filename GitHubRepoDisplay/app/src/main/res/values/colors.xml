@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="mainRelative">#F5F7F9</color>
+    <color name="cardView">#FFFFFF</color>
+    <color name="mainText">#4A4A4A</color>
+    <color name="subText">#A1A1A1</color>
+    <color name="filledStar">#FFD200</color>
+    <color name="unFilledStar">#B6B7B8</color>
+    <color name="blueButton">#088CFF</color>
+
+    <color name="blackThemeBackground">#373F55</color>
+    <color name="cardViewBlackThemeBackground">#4A5470</color>
+    <color name="transparent">#00000000</color>
+</resources>

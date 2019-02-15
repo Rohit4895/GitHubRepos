@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/mainRelative</item>
+        <item name="android:textColor">@color/mainText</item>
+        <item name="buttonTextColor">@style/customAttri</item>
+        <item name="cardViewBack">@style/customAttri2</item>
+        <item name="collectionColor">@style/customAttri5</item>
+        <item name="horiButton">@style/customAttri7</item>
+        <item name="cartIconChange">@style/customAttri9</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/unFilledStar</item>
+        <item name="colorControlActivated">@color/filledStar</item>
+    </style>
+
+    <style name="BlackTheme">
+        <item name="android:background">@color/blackThemeBackground</item>
+        <item name="android:textColor">@color/cardView</item>
+        <item name="buttonTextColor">@style/customAttri3</item>
+        <item name="cardViewBack">@style/customAttri4</item>
+        <item name="collectionColor">@style/customAttri6</item>
+        <item name="horiButton">@style/customAttri8</item>
+        <item name="cartIconChange">@style/customAttri10</item>
+    </style>
+
+    <style name="customAttri">
+        <item name="android:textColor">@color/blueButton</item></style>
+
+    <style name="customAttri2">
+        <item name="android:background">@color/cardView</item>
+    </style>
+
+    <style name="customAttri3">
+        <item name="android:textColor">@color/cardView</item></style>
+
+    <style name="customAttri4">
+        <item name="android:background">@color/cardViewBlackThemeBackground</item>
+    </style>
+
+    <style name="customAttri5">
+        <item name="android:textColor">@color/mainText</item>
+    </style>
+
+    <style name="customAttri6">
+        <item name="android:textColor">@color/cardView</item>
+    </style>
+
+    <style name="customAttri7">
+        <item name="android:textColor">@color/blueButton</item>
+        <item name="android:background">@drawable/hori_cart_button</item>
+    </style>
+
+    <style name="customAttri8">
+        <item name="android:textColor">@color/cardView</item>
+        <item name="android:background">@drawable/hori_cart_button2</item>
+    </style>
+
+    <style name="customAttri9">
+        <item name="android:background">@drawable/cart</item>
+    </style>
+
+    <style name="customAttri10">
+        <item name="android:background">@drawable/cart1</item>
+    </style>
+
+
+
+
+</resources>
