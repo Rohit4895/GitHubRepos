@@ -20,6 +20,7 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import retrofit2.http.Query;
 
 public class MainActivity extends AppCompatActivity implements VerticalAdapter.IMethodCaller, HorizontalAdapter.CallDifferentUserLists {
     RecyclerView horiRecyclerView, verRecyclerView;
@@ -170,13 +171,13 @@ public class MainActivity extends AppCompatActivity implements VerticalAdapter.I
         verRecyclerView.setAdapter(verticalAdapter);
     }
 
-    public void getJavaUsersList(){
+    public void getJavaUsersList(String string){
         final ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Please Wait Sometime...");
         progressDialog.show();
 
-        apiInterface.getJavaUsersList().enqueue(new Callback<UsersList>() {
+        apiInterface.getJavaUsersList(string).enqueue(new Callback<UsersList>() {
             @Override
             public void onResponse(Call<UsersList> call, Response<UsersList> response) {
                 user = response.body();
@@ -196,7 +197,7 @@ public class MainActivity extends AppCompatActivity implements VerticalAdapter.I
 
     }
 
-    public void getJsUsersList(){
+    /*public void getJsUsersList(){
         final ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Please Wait Sometime...");
@@ -377,7 +378,7 @@ public class MainActivity extends AppCompatActivity implements VerticalAdapter.I
             }
         });
 
-    }
+    }*/
 
 
     @Override
@@ -389,48 +390,48 @@ public class MainActivity extends AppCompatActivity implements VerticalAdapter.I
     @Override
     public void onClickJavaList() {
         Toast.makeText(getApplicationContext(),"Java",Toast.LENGTH_SHORT).show();
-        getJavaUsersList();
+        getJavaUsersList("language:java");
     }
 
     @Override
     public void onClickJsList() {
         Toast.makeText(getApplicationContext(),"JavaScript",Toast.LENGTH_SHORT).show();
-        getJsUsersList();
+        getJavaUsersList("language:js");
     }
 
     @Override
     public void onClickKotlinList() {
         Toast.makeText(getApplicationContext(),"Kotlin",Toast.LENGTH_SHORT).show();
-        getKotlinUsersList();
+        getJavaUsersList("language:kotlin");
     }
 
     @Override
     public void onClickSwiftList() {
         Toast.makeText(getApplicationContext(),"Swift",Toast.LENGTH_SHORT).show();
-        getSwiftUsersList();
+        getJavaUsersList("language:swift");
     }
 
     @Override
     public void onClickPythonList() {
         Toast.makeText(getApplicationContext(),"Python",Toast.LENGTH_SHORT).show();
-        getPythonUsersList();
+        getJavaUsersList("language:python");
     }
 
     @Override
     public void onClickCList() {
         Toast.makeText(getApplicationContext(),"C",Toast.LENGTH_SHORT).show();
-        getCUsersList();
+        getJavaUsersList("language:c");
     }
 
     @Override
     public void onClickCppList() {
         Toast.makeText(getApplicationContext(),"Cpp",Toast.LENGTH_SHORT).show();
-        getCppUsersList();
+        getJavaUsersList("language:cpp");
     }
 
     @Override
     public void onClickAssemblyList() {
         Toast.makeText(getApplicationContext(),"Assembly",Toast.LENGTH_SHORT).show();
-        getAssemblyUsersList();
+        getJavaUsersList("language:assembly");
     }
 }
